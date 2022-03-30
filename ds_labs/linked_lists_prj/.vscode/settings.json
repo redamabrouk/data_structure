@@ -1,0 +1,12 @@
+{
+    "files.exclude": {
+        ".vscode":true,
+        "**/*.class": true
+    },
+
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
