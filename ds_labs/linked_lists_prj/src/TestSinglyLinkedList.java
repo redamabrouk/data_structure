@@ -12,10 +12,12 @@ public class TestSinglyLinkedList {
        String s4="D";
 
         list.insertBegin(s1);
-        list.insertBegin(s2);
-        list.insertBegin(s3);
+        list.insertEnd(s2);
+        list.insertEnd(s3);
         list.insertEnd(s4);
 
+        list.printList();
+        list.removeBegin();
         list.printList();
 
     }

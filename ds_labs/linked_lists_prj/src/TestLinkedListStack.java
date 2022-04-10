@@ -1,9 +1,9 @@
-import ds.stacks.Stack;
+import ds.stacks.LinkedListStack;
 
-public class TestStack {
+public class TestLinkedListStack {
 
     public static void main(String[] args) {
-        Stack<String> s = new Stack<String>();
+        LinkedListStack<String> s = new LinkedListStack<String>();
         s.push("A");
         s.push("B");
         s.push("C");
@@ -26,7 +26,7 @@ public class TestStack {
         s.push("D");
         s.print();
         System.out.println("===============================");
-        Stack<Integer> s2 = new Stack<Integer>();
+        LinkedListStack<Integer> s2 = new LinkedListStack<Integer>();
         s2.push(1);
         s2.push(2);
         s2.push(3);
